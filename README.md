@@ -1,2 +1,17 @@
 # HPSX-HDRP-Toolkit
 The haunted psx HDRP volume shader.
+
+This shader is based on: https://github.com/o-l-l-i/OrderedDitheringMonoChannel
+
+It adds a few extra features such as limiting number of steps in each RGB channel and seperation amount.
+![hall](image/hallway.png)
+![plant](image/plant.png)
+
+
+
+# Migration
+Migration to newer or older versions of HDRP (at least 2019 LTS should work) is a little wierd since the feature was somewhat removed from the pipeline(I think). However, it is as simple as adding to the `afterPostProcessCustomPostProcesses:` line with the custom volume pass.
+
+![migration](image/migration.png)
+
+
