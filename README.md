@@ -18,7 +18,7 @@ Shader graph tools are still WIP, but you should be able to tweak it to work in 
 
 
 # Migration
-Migration to newer or older versions of HDRP (at least 2019 LTS should work) is a little wierd since the feature was somewhat removed from the pipeline(I think). However, it is as simple as adding to the `afterPostProcessCustomPostProcesses:` line with the custom volume pass.
+Migration to newer or older versions of HDRP (at least 2019 LTS should work) is a little wierd since the feature was somewhat removed from the pipeline(I think). However, it is as simple as adding to the `afterPostProcessCustomPostProcesses:` line in the HDRPRenderPipeline asset with the custom volume pass name.
 
 ![migration](images/migration.png)
 
