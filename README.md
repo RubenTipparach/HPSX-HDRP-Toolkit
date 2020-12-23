@@ -4,8 +4,8 @@ The haunted psx HDRP volume shader.
 This shader is based on: https://github.com/o-l-l-i/OrderedDitheringMonoChannel
 
 It adds a few extra features such as limiting number of steps in each RGB channel and seperation amount.
-![hall](images/hallway.png)
-![plant](images/plant.png)
+![hall](images/hallway.jpg)
+![plant](images/plant.jpg)
 
 
 
